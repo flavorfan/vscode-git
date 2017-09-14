@@ -1,0 +1,6 @@
+{
+    "files.autoSave": "off",
+    
+      // 以像素为单位控制字号。
+      "editor.fontSize": 12
+}
