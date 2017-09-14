@@ -1,6 +1,14 @@
 {
     "files.autoSave": "off",
     
-      // 以像素为单位控制字号。
-      "editor.fontSize": 12
+    // 以像素为单位控制字号。
+    "editor.fontSize": 12,
+      // 配置 glob 模式以排除文件和文件夹。
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true
+  }
 }
